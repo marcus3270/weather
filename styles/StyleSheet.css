@@ -1,0 +1,39 @@
+﻿body {
+    background-color: #87CEEB;
+    text-align: center
+    
+}
+.container {
+    display: grid; /* this will make the div with this class behave like a grid*/
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /*grid-gap: 20px; */ /*space between columns*/
+    /*padding: 20px;*/
+    /*grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;*/
+    /*grid-template-columns: 100px 100px 100px 100px 100px 100px 100px*/ /*4 fractional units - Each row contains 4 columns of 1 unit each */
+    /*width:80% ;*/
+    /*margin: auto;*/
+    
+}
+    .container div {
+        border-style: double;
+        text-align: center;
+        height: 300px
+        
+    }
+.container2 {
+    display: grid; /* this will make the div with this class behave like a grid*/
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /*grid-gap: 20px; */ /*space between columns*/
+    /*padding: 20px;*/
+    /*grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;*/
+    /*grid-template-columns: 100px 100px 100px 100px 100px 100px 100px*/ /*4 fractional units - Each row contains 4 columns of 1 unit each */
+    /*width:80% ;*/
+    /*margin: auto;*/
+}
+
+    .container2 div {
+        border-style: double;
+        text-align: center;
+        height: 300px
+    }
+
